@@ -1,0 +1,16 @@
+# Welcome to My Website
+
+Welcome to my personal website! This is a simple, fast, and modern website built with HTML, CSS, and JavaScript.
+
+## Latest Blog Posts
+
+- [Getting Started with Web Development](/blog/getting-started)
+- [Why I Love Static Sites](/blog/static-sites)
+
+## About Me
+
+I'm passionate about creating beautiful, performant websites that provide value to users. This website is built using simple tools and technologies, focusing on speed and maintainability.
+
+## Get in Touch
+
+Feel free to [contact me](/contact) or check out my [FAQ](/faq) for more information. 

@@ -85,25 +85,27 @@ app.get('*', (req, res) => {
             
             const html = `
                 <!DOCTYPE html>
-                <html>
+                <html lang="en">
                 <head>
+                    <meta charset="UTF-8">
+                    <meta name="viewport" content="width=device-width, initial-scale=1.0">
                     <title>Blog Posts - ${config.websiteName}</title>
                     <link rel="stylesheet" href="/css/style.css">
+                    <link rel="icon" type="image/png" href="/favicon.png">
+                    <meta name="description" content="Latest blog posts from ${config.websiteName}">
                 </head>
                 <body>
-                    <header>
-                        <nav>
-                            <div class="nav-container">
-                                <a href="/" class="logo">${config.websiteName}</a>
-                                <ul class="nav-links">
-                                    <li><a href="/">Home</a></li>
-                                    <li><a href="/blog">Blog</a></li>
-                                    <li><a href="/about">About</a></li>
-                                    <li><a href="/faq">FAQ</a></li>
-                                </ul>
-                            </div>
-                        </nav>
-                    </header>
+                    <nav>
+                        <div class="nav-container">
+                            <a href="/" class="logo">${config.websiteName}</a>
+                            <ul class="nav-links">
+                                <li><a href="/">Home</a></li>
+                                <li><a href="/blog">Blog</a></li>
+                                <li><a href="/about">About</a></li>
+                                <li><a href="/faq">FAQ</a></li>
+                            </ul>
+                        </div>
+                    </nav>
                     <main>
                         <div class="markdown-content">
                             <h1>Blog Posts</h1>

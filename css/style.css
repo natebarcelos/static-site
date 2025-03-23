@@ -120,4 +120,50 @@ footer {
     max-width: 100%;
     height: auto;
     margin: 1.5rem 0;
+}
+
+/* Blog list styles */
+.blog-list {
+    list-style: none;
+    padding: 0;
+    margin: 2rem 0;
+}
+
+.blog-list li {
+    margin-bottom: 1rem;
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blog-list li:last-child {
+    border-bottom: none;
+}
+
+.blog-list a {
+    color: #333;
+    text-decoration: none;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+    flex: 1;
+}
+
+.blog-list a:hover {
+    color: #0066cc;
+}
+
+.post-date {
+    color: #666;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+}
+
+/* Blog post date */
+.markdown-content .post-date {
+    color: #666;
+    font-size: 1rem;
+    margin-bottom: 1.5rem;
+    font-style: italic;
 } 

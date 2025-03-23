@@ -4,8 +4,7 @@ Welcome to my personal website! This is a simple, fast, and modern website built
 
 ## Latest Blog Posts
 
-- [Getting Started with Web Development](/blog/getting-started)
-- [Why I Love Static Sites](/blog/static-sites)
+{{latest_posts}}
 
 ## About Me
 
@@ -13,4 +12,4 @@ I'm passionate about creating beautiful, performant websites that provide value 
 
 ## Get in Touch
 
-Feel free to [contact me](/contact) or check out my [FAQ](/faq) for more information. 
+Feel free to [contact me](/contact.html) or check out my [FAQ](/faq.html) for more information. 

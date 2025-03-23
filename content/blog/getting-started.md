@@ -1,3 +1,7 @@
+---
+date: 2024-03-22
+---
+
 # Getting Started with Web Development
 
 Web development is an exciting journey that combines creativity with technical skills. In this post, I'll share some tips for beginners who want to start their web development journey.
